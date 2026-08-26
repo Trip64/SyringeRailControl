@@ -1,0 +1,25 @@
+# Build outputs
+build/
+bin/
+obj/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+
+# CMake cache and temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Virtual environments
+pio_env/
+
+# System and editor files
+.DS_Store
+.vscode/
+.idea/

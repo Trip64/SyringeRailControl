@@ -1,0 +1,46 @@
+# Build artifacts
+build/
+bin/
+obj/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+
+# CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Virtual environments / platformio
+pio_env/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.cproject
+.settings/
+.mxproject
+
+# CubeMX backups
+*.bak
+*~
